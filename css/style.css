@@ -238,9 +238,11 @@ a:focus {
 }
 
 .nav-bar .btn:hover {
-  color: #45a8ad /* #030f27 */;
-  background: #fdbe33;
-  border-color: #fdbe33;
+  color: #ffffff /* #030f27 */;
+  font-weight: 700;
+  /* background: #fdbe33; */
+  background: var(--firts-color-greenlight);
+  border-color: #ffffff;
 }
 
 @media (min-width: 992px) {
@@ -362,9 +364,11 @@ a:focus {
 }
 
 .carousel .carousel-caption .btn:hover {
-  color: #030f27;
-  background: #fdbe33;
-  border-color: #fdbe33;
+  color: #ffffff /* #030f27 */;
+  font-weight: 700;
+  /* background: #fdbe33; */
+  background: var(--firts-color-greenlight);
+  border-color: #ffffff;
 }
 
 @media (max-width: 767.98px) {
@@ -652,15 +656,18 @@ a:focus {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
-  color: #030f27;
+  color: #ffffff;
   border-radius: 0;
-  background: #fdbe33;
+  /* background: #fdbe33; */
+  background: var(--third-color-greendark);
   transition: 0.3s;
 }
 
 .about .about-text a.btn:hover {
-  color: #fdbe33;
-  background: #030f27;
+  /* color: #fdbe33; */
+  color: #ffffff;
+  /* background: #030f27; */
+  background: var(--second-color-bluelight);
 }
 
 @media (max-width: 767.98px) {
@@ -1002,11 +1009,12 @@ a:focus {
 }
 
 .team .team-item:hover .team-text {
-  background: #fdbe33;
+  /* background: #fdbe33; */
+  background: var(--third-color-greendark);
 }
 
 .team .team-item:hover .team-text h2 {
-  color: #030f27;
+  color: #ffffff;
   letter-spacing: 1px;
 }
 
@@ -1169,8 +1177,8 @@ a:focus {
   margin: 45px 0;
   padding: 90px 0;
   text-align: center;
-  background: linear-gradient(rgba(3, 15, 39, 0.9), rgba(3, 15, 39, 0.9)),
-    url(../img/carousel-1.jpg);
+  background: linear-gradient(rgba(3, 15, 39, 0.7), rgba(3, 15, 39, 0.7)),
+    url(../img/carousel/geo_ambiental-1.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1229,12 +1237,12 @@ a:focus {
   height: 50px;
   top: 0;
   left: calc(50% - 30px);
-  background: url(../img/quote.png) top center no-repeat;
+  /* background: url(../img/quote.png) top center no-repeat; */
 }
 
 .testimonial .testimonial-slider h3 {
   color: #fdbe33;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -1248,7 +1256,7 @@ a:focus {
 
 .testimonial .testimonial-slider p {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   margin: 0;
 }
@@ -1282,7 +1290,8 @@ a:focus {
   display: flex;
   align-items: center;
   height: 60px;
-  background: #030f27;
+  /* background: #030f27; */
+  background: var(--third-color-greendark);
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -1312,7 +1321,8 @@ a:focus {
   line-height: 60px;
   font-weight: 100;
   color: #030f27;
-  background: #fdbe33;
+  /* background: #fdbe33; */
+  background: var(--firts-color-greenlight);
   border-radius: 0;
   transition: 0.3s;
 }
@@ -2085,7 +2095,8 @@ a:focus {
   position: relative;
   margin-top: 45px;
   padding-top: 90px;
-  background: #030f27;
+  /* background: #030f27; */
+  background: var(--third-color-greendark);
   color: #ffffff;
 }
 
@@ -2102,7 +2113,7 @@ a:focus {
   padding-bottom: 10px;
   font-size: 20px;
   font-weight: 600;
-  color: #fdbe33;
+  color: #ffffff;
 }
 
 .footer h2::after {
@@ -2112,7 +2123,7 @@ a:focus {
   height: 2px;
   left: 0;
   bottom: 0;
-  background: #fdbe33;
+  background: #030f27;
 }
 
 .footer .footer-link a {
